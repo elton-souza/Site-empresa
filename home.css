@@ -1,0 +1,37 @@
+body{
+    background: #0A1843;
+    font-style: roboto;
+}
+
+#logo{
+    padding: 30px;
+}
+#apresentacao{
+    padding: 20px;
+    vertical-align: 170px;
+    width: 40%;
+    display: inline-block;
+
+}
+#img-home{
+    width:45%;
+    margin-left: 40px;
+    
+}
+#transformacao{
+    color: #F2B422;
+    font-size: 22px;
+    font-weight: bold;
+}
+#serviço-gerenciado{
+    font-style: exo 2;
+    font-size: 55px;
+    font-weight: bold;
+}
+#continuacao{
+    font-size: 20px;
+}
+p{
+    color: white;
+    
+}
