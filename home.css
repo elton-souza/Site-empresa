@@ -2,21 +2,20 @@ body{
     background: #0A1843;
     font-style: roboto;
 }
-
 #logo{
     padding: 30px;
+    margin-left: 70px;
 }
 #apresentacao{
-    padding: 20px;
+    padding: 50px;
     vertical-align: 170px;
     width: 40%;
     display: inline-block;
-
 }
 #img-home{
     width:45%;
     margin-left: 40px;
-    
+    margin-top: 30px;
 }
 #transformacao{
     color: #F2B422;
