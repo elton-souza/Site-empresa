@@ -1,36 +1,41 @@
 body{
-    background: #0A1843;
-    font-style: roboto;
+    background: #0A1944 ;
 }
-#logo{
+header{
+    position: absolute;
     padding: 30px;
-    margin-left: 70px;
+    right: 30px;
+    left: 30px;
 }
-#apresentacao{
-    padding: 50px;
-    vertical-align: 170px;
-    width: 40%;
-    display: inline-block;
+.bloco{
+    width: 940px;
+    position: relative;
+    margin: 0 auto;
 }
-#img-home{
-    width:45%;
-    margin-left: 40px;
-    margin-top: 30px;
+nav{
+    position: absolute;
+    top: 15px;
+    right: 0px;
+
 }
-#transformacao{
-    color: #F2B422;
-    font-size: 22px;
+nav li{
+    display: inline;
+    margin-left: 25px;
+}
+nav a{
+    text-decoration: none;
+    font-family: 'Exo 2', sans-serif;
     font-weight: bold;
+    font-size: 16px;
+    color: #F4F4F5;
 }
-#serviço-gerenciado{
-    font-style: exo 2;
-    font-size: 55px;
-    font-weight: bold;
+hr{
+    color: ;
+    margin:0;
 }
-#continuacao{
-    font-size: 20px;
+
+nav a:hover{
+    color: #F2B42A;
 }
-p{
-    color: white;
-    
-}
+
+
