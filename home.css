@@ -1,7 +1,7 @@
 body{
     background: #0A1944 ;
 }
-/**/
+/*TOP BAR*/
 header{
     position: absolute;
     padding: 30px;
@@ -38,7 +38,7 @@ nav a:hover{
     color: #F2B42A;
 }
 
-/**/
+/* Página Principal */
 
 #img-principal{
     width: 100%;
@@ -53,4 +53,19 @@ nav a:hover{
 .apresentacao{
     width: 940px;
     margin: 0 auto;
+}
+p{
+    font-family: 'Exo 2', sans-serif;
+}
+#p1{
+    color:#F2B42A;
+    font-size: 23px;
+}
+#p2{
+    color: #F4F4F5;
+    font-size: 90px;
+}
+#p3{
+    color: #F4F4F5;
+    font-size: 20px;
 }
