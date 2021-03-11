@@ -1,7 +1,9 @@
 body{
-    background: #0A1944 ;
+    background: #0A1944;
+    font-family: 'Rubik', sans-serif;
 }
 /*TOP BAR*/
+
 header{
     position: absolute;
     padding: 30px;
@@ -9,9 +11,12 @@ header{
     left: 30px;
 }
 .bloco{
-    width: 940px;
-    margin: 0 auto;
-    position: relative;   
+    width: 1000px;
+    margin: 10PX auto;
+    position: relative; 
+}
+.logo{
+    margin-top: 3px;
 }
 nav{
     position: absolute;
@@ -25,19 +30,13 @@ nav li{
 }
 nav a{
     text-decoration: none;
-    font-family: 'Exo 2', sans-serif;
-    font-weight: bold;
+    font-weight: 900;
     font-size: 16px;
     color: #F4F4F5;
 }
-hr{
-    margin:0;
-}
-
 nav a:hover{
     color: #F2B42A;
 }
-
 /* Página Principal */
 
 #img-principal{
@@ -48,24 +47,40 @@ nav a:hover{
     position: absolute;
     right: 30px;
     left: 30px;
-    top: 240px;
+    top: 270px;
 }
 .apresentacao{
     width: 940px;
-    margin: 0 auto;
-}
-p{
-    font-family: 'Exo 2', sans-serif;
+    margin: 10px auto;
 }
 #p1{
     color:#F2B42A;
     font-size: 23px;
+    font-weight: 600;
 }
 #p2{
     color: #F4F4F5;
     font-size: 90px;
+    padding: 12px 0;
+    font-weight: 900;
 }
 #p3{
     color: #F4F4F5;
     font-size: 20px;
+    font-family: 'Roboto', sans-serif; 
+    font-weight: 600;
 }
+
+.botoes-apresentacao{
+    background: transparent;
+    border: solid 2px rgba(255, 255, 255, 0.1);
+    box-shadow: 0;
+    padding: 17px 35px;
+    color:#F2B42A;
+    font-weight: bold;
+}
+.botoes-apresentacao:hover{
+
+}
+
+
