@@ -32,8 +32,6 @@ body{
 .menu a:hover{
     color:#F2B42A;
 }
-/* Página Principal */
-
 #img-principal{
     width: 100%;
 }
@@ -84,7 +82,22 @@ body{
     background: #FFFFFF;
     color: black;
     cursor: pointer;
-
 }
+/*Conteúdo Principal*/
 
-
+main{
+    width: 940px;
+    margin: 0 auto;
+    margin-top: 200px;
+}
+.titulo{
+    font-size: 42px;
+}
+.bloco-conteudo{
+    width: 940px;
+    margin: 0 auto;
+    vertical-align: top;
+}
+.bloco-conteudo li{
+    border:1px solid white;
+}
