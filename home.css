@@ -3,6 +3,7 @@ body{
     font-family: "Exo 2", Arial, Tahoma, sans-serif;
 }
 /*TOP BAR*/
+
 .barra-topo{
     width: 100%;
     height: 110px;
@@ -33,7 +34,7 @@ body{
     color:#F2B42A;
 }
 #img-principal{
-    width: 100%;
+    width:auto;
 }
 .bloco-apresentacao{
     position: absolute;
@@ -84,20 +85,27 @@ body{
     cursor: pointer;
 }
 /*Conteúdo Principal*/
-
 main{
-    width: 940px;
-    margin: 0 auto;
-    margin-top: 200px;
+    width: 1080px;
+    margin: 60px auto 0 auto;
 }
-.titulo{
-    font-size: 42px;
+
+.titulos-centralizados{
+   text-align: center;
+   font-size: 42px;
+    margin-bottom: 2em;
 }
-.bloco-conteudo{
-    width: 940px;
-    margin: 0 auto;
-    vertical-align: top;
+.itens-problemas li{
+    margin-top: 15px;
+    display: inline-block;
+    width: 20%;
+    font-size: 16px;
+    text-align: justify;
+    vertical-align:top;
+    box-sizing: border-box;
 }
-.bloco-conteudo li{
-    border:1px solid white;
+.itens-problemas h3{
+    font-size: 23px;
+    margin-bottom: 15px;
+    text-align: left;
 }
